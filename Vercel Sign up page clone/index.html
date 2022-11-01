@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://cdn.tailwindcss.com"></script>
+		<script>
+			tailwind.config = {
+				theme: {
+					fontFamily: {
+						sans: ['Inter', 'sans-serif'],
+					},
+				},
+			}
+		</script>
+		<title>Vercel Sign up Clone</title>
+	</head>
+	<body>
+		<section id="hero">
+			<div class=" flex flex-col  md:flex-row h-[120vh]">
+				<!-- first column -->
+				<div
+					class="relative hidden  md:block md:w-1/2 bg-[#111]  border-r-2 py-4 border-gray-500"
+				>
+					<div
+						class="absolute max-w-sm top-10 md:left-0 md:px-12 lg:left-0 xl:left-0 2xl:left-96 2xl:px-0"
+					>
+						<div class="">
+							<img class="h-6" src="vercel-logotype-light.svg" alt="" />
+						</div>
+						<div class="flex flex-col space-y-8 my-12">
+							<!-- item 1 -->
+
+							<div class="flex justify-start space-x-2">
+								<img src="check.png" class="w-6 h-6" alt="" />
+								<div class="flex flex-col space-y-3">
+									<h2 class="font-sans font-bold text-xl text-white">
+										Instant edge deploys
+									</h2>
+									<p class="text-white">
+										Push to git and your website is live. Zero configuration
+										required
+									</p>
+								</div>
+							</div>
+							<div class="flex justify-start space-x-2">
+								<img src="check.png" class="w-6 h-6" alt="" />
+								<div class="flex flex-col space-y-3">
+									<h2 class="font-sans font-bold text-xl text-white">
+										Collaborate with previews
+									</h2>
+									<p class="text-white">
+										Every pull request gets its own preview URL. Share them to
+										gather feedback or run tests.
+									</p>
+								</div>
+							</div>
+							<div class="flex justify-start space-x-2">
+								<img src="check.png" class="w-6 h-6" alt="" />
+								<div class="flex flex-col space-y-3">
+									<h2 class="font-sans font-bold text-xl text-white">
+										Turn static to dynamic
+									</h2>
+									<p class="text-cyan-50">
+										Generate blazing fast pages and augment them with rich
+										JavaScript that brings your apps alive.
+									</p>
+								</div>
+							</div>
+							<div class="flex justify-start space-x-2">
+								<img src="check.png" class="w-6 h-6" alt="" />
+								<div class="flex flex-col space-y-3">
+									<h2 class="font-sans font-bold text-xl text-white">
+										Ship directly to the edge
+									</h2>
+									<p class="text-white">
+										Always fast. Always online. Always a hit.
+									</p>
+								</div>
+							</div>
+						</div>
+
+						<!-- button container -->
+					</div>
+				</div>
+
+				<!-- second column -->
+
+				<div
+					class="container md:w-1/2 bg-black border-r-2 px-12 py-8 border-gray-500"
+				>
+					<div class="w-80 mt-20 mx-14">
+						<div class="flex flex-col items-center justify-center space-y-6">
+							<h2 class="text-4xl font-bold font-sans text-left text-white">
+								Join the best frontend teams
+							</h2>
+							<div class="flex flex-col justify-start space-y-4">
+						
+								<div>
+									<button
+										class="w-80 py-5 px-2 flex items-center justify-center space-x-3  bg-[#111] rounded-lg  hover:bg-gray-400 duration-200 hover:opacity-50"
+									>
+									  <img src="GitHub.png" class="w-6 h-6" alt="">
+										<p class="text-white font-semibold font-sans">Continue with GitHub</p>
+										</svg>
+									</button>
+								</div>
+								<div>
+									<button
+										class="w-80 py-5 px-2 flex items-center justify-center space-x-3  bg-[#6b4fbb] rounded-lg  hover:bg-[#8367D3] duration-200 hover:opacity-90"
+									>
+									  <img src="gitlab.svg" class="w-6 h-6" alt="">
+										<p class="text-white font-semibold font-sans">Continue with GitLab</p>
+										</svg>
+									</button>
+								</div>
+								<div>
+									<button
+										class="w-80 py-5 px-2 flex items-center justify-center space-x-3  bg-[#0052CC] rounded-lg  hover:bg-[#1668E2] duration-200 "
+									>
+									  <img src="bitbucket.png" class="w-6 h-6" alt="">
+										<p class="text-white font-semibold font-sans">Continue with Bitbucket</p>
+										</svg>
+									</button>
+								</div>
+                 <div class="group">
+									 <div class="flex items-center justify-center space-x-2">
+										 <a class="  text-[#0052CC]  "  href="#">Continue with Email </a>
+										 <span><img class="w-4" src="arrow.png" alt=""></span>
+										 
+									 </div>
+									 <div class="  group-hover:border-b group-hover:border-b-[#0052CC] "></div>
+
+								 </div>
+              
+					
+
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+	</body>
+</html>
